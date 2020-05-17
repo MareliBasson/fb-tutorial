@@ -1,0 +1,20 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-content: center; }
+  .menu a {
+    color: white;
+    padding: 7px 15px;
+    margin-left: 20px;
+    font-weight: 300;
+    font-size: 12px;
+    border-radius: 15px; }
+    .menu a:hover, .menu a:visited, .menu a:active, .menu a:focus {
+      text-decoration: none;
+      outline: none;
+      color: white; }
+    .menu a:hover {
+      text-decoration: none;
+      color: #ff0000; }
+    .menu a:active, .menu a.active {
+      background-color: rgba(255, 255, 255, 0.3); }
